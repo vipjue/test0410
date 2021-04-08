@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/public.css" rel="stylesheet"/>
+    <link href="css/cart-shopping.css" rel="stylesheet"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/cart-shopping.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header-wrap wid1000">
+        <div class="header-left">
+            <p class="fl">冷链配送 99元顺丰到家 送至：</p>
+            <span class="wid50 fl" id="city-btn">
+                   北京<b></b>
+                   <div class="city" id="city-wrap">
+                       <div class="city-top">
+                           <p class="fl">请选择您的收货城市</p>
+                           <div class="off fr" id="off-btn"></div>
+                       </div>
+                       <ul class="city-middle">
+                           <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                            <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                            <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                           <li><a href="###">北京</a></li>
+                       </ul>
+                       <div class="city-bottom">
+                           <div>更多城市：</div>
+                           <div class="fl">华东：</div>
+                           <ul class="city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city huadong">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+                           <div class="fl">华南：</div>
+                           <ul class="huadong city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+                           <div class="fl">华北：</div>
+                           <ul class="huadong city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+                           <div class="fl">华中</div>
+                           <ul class="huadong city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+                           <div class="fl">东北：</div>
+                           <ul class="huadong city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+                           <div class="fl">西南：</div>
+                           <ul class="huadong city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+                           <div class="fl">西北：</div>
+                           <ul class="huadong city-option">
+                               <li>上海</li>
+                               <li>浙江</li>
+                               <li>江苏</li>
+                               <li>安徽</li>
+                           </ul>
+                           <div class="con-city">
+                               <ul>
+                                   <li><a href="###">上海</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                                   <li><a href="###">杭州</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                                   <li><a href="###">江苏</a></li>
+                               </ul>
+                               <ul>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                                   <li><a href="###">合肥</a></li>
+                               </ul>
+                           </div>
+
+
+
+
+
+
+
+                       </div>
+                   </div>
+               </span>
+        </div>
+        <ul class="header-right fr">
+            <li>嘿，欢迎来顺丰优选！
+                <a href="login.html">请登录</a>
+                <a href="register.html">免费注册</a>
+            </li>
+            <li class="myOrder">
+                <a href="###">我的订单</a>
+            </li>
+            <li class="select" id="best-select">
+                <a href="###">我的优选</a>
+                <b></b>
+                <ul id="select-item">
+                    <li><a href="###">我的订单</a></li>
+                    <li><a href="###">我的订单</a></li>
+                    <li><a href="###">我的订单</a></li>
+                    <li><a href="###">我的订单</a></li>
+                    <li><a href="###">我的订单</a></li>
+                </ul>
+            </li>
+            <li class="phone" id="phone-client">
+                <b></b>
+                <a href="###">移动客户端</a>
+                <div class="client" id="client-wrap">
+                    <div class="qr-code">
+                        <span></span>
+                        <p></p>
+                        <div class="txt">
+                            <em>扫描我，即可下载</em>
+                            <strong>顺丰优选客户端</strong>
+                        </div>
+                    </div>
+                    <div class="app">
+                        <a href="###" class="app-apple"></a>
+                        <a href="###" class="app-android"></a>
+                    </div>
+                    <div class="coupon">
+                        <a href="###">先摇卷 后买单</a>
+                    </div>
+                </div>
+            </li>
+            <li class="select" id="help-btn">
+                <a href="###">帮助中心</a>
+                <b></b>
+                <ul id="help-item">
+                    <li><a href="###">购物指南</a></li>
+                    <li><a href="###">购物指南</a></li>
+                    <li><a href="###">购物指南</a></li>
+                    <li><a href="###">购物指南</a></li>
+                    <li><a href="###">购物指南</a></li>
+                </ul>
+            </li>
+            <li class="slitMap select">
+                <a href="###">网站导航</a>
+                <b></b>
+                <div id="slitMapWrap">
+                    <dl>
+                        <dt class="map1">商品分类</dt>
+                        <dd>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                            <a>肉类海鲜</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="map2">特色屏道</dt>
+                        <dd>
+                            <a>跨境直发</a>
+                            <a>跨境直发</a>
+                            <a>跨境直发</a>
+                            <a>跨境直发</a>
+                        </dd>
+                    </dl>
+                    <dl class="last">
+                        <dt class="map3">更多</dt>
+                        <dd>
+                            <a>客户端</a>
+                            <a>关注我们</a>
+                            <div class="call">客服电话：4009-111-111</div>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="weiBo">
+                <a href="###">
+                    <b></b>
+                </a>
+            </li>
+            <li class="weChat">
+                <a href="###">
+                    <b></b>
+                </a>
+                <div id="wxCode">
+                    <p>关注顺丰优选微信</p>
+                    <div class="wxCodeImg"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--顶部结束-->
+<!--logo行-->
+<div style="background-color: #fff;width: 100%">
+    <div class="logo-wrap wid1000">
+        <div class="logo">
+            <a href="###" class="logo-left fl"></a>
+            <a href="###" class="logo-right fl"></a>
+            <img src="images/logo_word.jpg" class="logo-word">
+        </div>
+        <div class="right-logo">
+            <img src="images/step_01.jpg"/>
+        </div>
+    </div>
+</div>
+
+<!--logo行结束-->
+<div class="cartMain wid1000">
+    <div class="cartHead">
+        <h1 class="cartMy">我的购物车</h1>
+        <div class="areaShow">
+            <h2>送至:</h2>
+            <div class="selector">
+                上海长宁区
+                <div class="content"></div>
+            </div>
+            <p>提示：请选择您的收货区域，查看更准确的信息</p>
+
+        </div>
+        <div class="total">总计（不含运费）：¥<span class="allPrice"> 0</span></div>
+    </div>
+    <div class="cartMain">
+        <div class="cartThead">
+            <div class="tCol tCheckbox">
+                <input type="checkbox" class="ch-all"/>全选
+            </div>
+            <div class="tCol tGoods">商品</div>
+            <div class="tCol tPrice">单价</div>
+            <div class="tCol tPromotion">优惠</div>
+            <div class="tCol tQuantity">数量</div>
+            <div class="tCol tWeight">重量</div>
+            <div class="tCol tSubtotal">小计</div>
+            <div class="tCol tInventory">库存状态</div>
+            <div class="tCol tOperator">操作</div>
+        </div>
+        <div class="cartTbody">
+            <div class="cartTitle">
+                <div class="cartCheckbox">
+                    <input type="checkbox" class="ch-all"/>优选商品
+                </div>
+            </div>
+            <ul class="cartItem">
+            </ul>
+        </div>
+        <div class="cartOrderCount">
+            <div class="cartBtn">
+                <a href="###">删除选中的商品</a>
+                <a href="###">清空购物车</a>
+            </div>
+            <div class="cartTotalItem">
+                <span class="weightAll">
+                    重量总计:
+                    <span class="weightNum">1.2</span>
+                    kg（含包装）
+                </span>
+                <span class="priceAll">不含运费</span>
+                <span class="priceNum">商品总计:</span>
+                <span class="moneyAll">￥336</span>
+            </div>
+        </div>
+        <div class="cartJsuan">
+            <a href="index.html" class="go-shopping">返回购物</a>
+            <a href="###" class="calculate">去结算</a>
+        </div>
+    </div>
+</div>
+<div class="footer_wrap">
+    <div class="footer2">
+        <div class="foot2_left">
+            <p class="kefu">4009-111-111</p>
+            <p>周一至周日8:30-22:00</p>
+        </div>
+        <div class="foot2_middle">
+            <dl>
+                <dt>配送指南</dt>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+            </dl>
+            <dl>
+                <dt>配送指南</dt>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+            </dl>
+            <dl>
+                <dt>配送指南</dt>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+            </dl>
+            <dl>
+                <dt>配送指南</dt>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+            </dl>
+            <dl>
+                <dt>配送指南</dt>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+                <dd><a href="###">积分制度</a></dd>
+            </dl>
+        </div>
+        <div class="foot2_right">
+            <dl class="r_first">
+                <dt><a href="###">手机客户端</a></dt>
+                <dd></dd>
+            </dl>
+            <dl>
+                <dt><a href="###">手机客户端</a></dt>
+                <dd></dd>
+            </dl>
+        </div>
+    </div>
+    <div class="footer3">
+        <div class="foot_img">
+            <a href="###"><img src="images/kxicon.jpg"/></a>
+            <a href="###"><img src="images/bottom_sm.png"/></a>
+        </div>
+        <div class="foot3_info">
+            <ul>
+                <li><a href="###">关于我们</a></li>
+                <li><a href="###">关于我们</a></li>
+                <li><a href="###">关于我们</a></li>
+                <li><a href="###">关于我们</a></li>
+                <li><a href="###">关于我们</a></li>
+                <li>Copyright© 顺丰优选 sfbest.com 版权所有</li>
+            </ul>
+            <ul>
+                <li>京公网安备11010502026831号</li>
+                <li class="info-btn"><a href="###">京ICP证150325号</a></li>
+                <li>食品流通许可证SP1101131210068671(1-1)号</li>
+                <li class="info-btn"><a href="###">企业营业执照</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

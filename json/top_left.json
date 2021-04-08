@@ -1,0 +1,73 @@
+[
+  {
+    "cateId":"001",
+    "cateName1":"水果",
+    "cateName2":"蔬菜",
+    "position":"-97px -295px",
+    "background_color":"#76ac25",
+    "img_top":"images/product/title1.jpg",
+    "img_left":"images/product/left1.jpg",
+    "img_right":"images/product/right1.jpg"
+  },
+  {
+    "cateId":"002",
+    "cateName1":"肉类",
+    "cateName2":"海鲜",
+    "position":"-178px -317px",
+    "background_color":"#fa648c",
+    "img_top":"images/product/title2.jpg",
+    "img_left":"images/product/left2.jpg",
+    "img_right":"images/product/right2.jpg"
+  },
+  {
+    "cateId":"003",
+    "cateName1":"熟食",
+    "cateName2":"蛋奶",
+    "position":"-70px -296px",
+    "background_color":"#ff6d00",
+    "img_top":"images/product/title3.jpg",
+    "img_left":"images/product/left3.jpg",
+    "img_right":"images/product/right3.jpg"
+  },
+  {
+    "cateId":"004",
+    "cateName1":"油粮",
+    "cateName2":"干货",
+    "position":"-178px -317px",
+    "background_color":"#78b270",
+    "img_top":"images/product/title4.jpg",
+    "img_left":"images/product/left4.jpg",
+    "img_right":"images/product/right4.jpg"
+  },
+  {
+    "cateId":"005",
+    "cateName1":"休闲",
+    "cateName2":"零食",
+    "position":"-125px -297px",
+    "background_color":"#d12e49",
+    "img_top":"images/product/title5.jpg",
+    "img_left":"images/product/left5.jpg",
+    "img_right":"images/product/right5.jpg"
+  },
+  {
+    "cateId":"006",
+    "cateName1":"牛奶",
+    "cateName2":"茶饮",
+    "position":"-154px -294px",
+    "background_color":"#f08c18",
+    "img_top":"images/product/title6.jpg",
+    "img_left":"images/product/left6.jpg",
+    "img_right":"images/product/right6.jpg"
+  },
+  {
+    "cateId":"007",
+    "cateName1":"酒水",
+    "cateName2":"饮料",
+    "position":"-179px -293px",
+    "background_color":"#ad96d9",
+    "img_top":"images/product/title7.jpg",
+    "img_left":"images/product/left7.jpg",
+    "img_right":"images/product/right7.jpg"
+  }
+
+]

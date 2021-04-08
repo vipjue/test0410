@@ -1,0 +1,63 @@
+[
+  {
+    "cateId":"001",
+    "name":"德利奥Delio 巧克力味威化饼干 320克",
+    "price":"38.9",
+    "img":"images/product1/174(1).jpg"
+  },
+
+  {
+    "cateId":"001",
+    "name":"百尚PAYSAN 布里奶酪 125g",
+    "price":"38.9",
+    "img":"images/product1/174(2).jpg"
+  },
+  {
+    "cateId":"001",
+    "name":"埃丝蓝Iceland 奶油海绵蛋糕 375g",
+    "price":"38.9",
+    "img":"images/product1/174(3).jpg"
+  },
+  {
+    "cateId":"001",
+    "name":"真牛馆 和牛肩甲肉眼烤肉片 200g",
+    "price":"38.9",
+    "img":"images/product1/174(4).jpg"
+  },
+  {
+    "cateId":"001",
+    "name":"啪啪通Papatonk Ginger",
+    "price":"38.9",
+    "img":"images/product1/174(5).jpg"
+  },
+  {
+    "cateId":"002",
+    "name":"德利奥Delio 巧克力味威化饼干 320克",
+    "price":"38.9",
+    "img":"images/product1/174(6).jpg"
+  },
+  {
+    "cateId":"002",
+    "name":"德利奥Delio 巧克力味威化饼干 320克",
+    "price":"38.9",
+    "img":"images/product1/174(7).jpg"
+  },
+  {
+    "cateId":"002",
+    "name":"德利奥Delio 巧克力味威化饼干 320克",
+    "price":"38.9",
+    "img":"images/product1/174(8).jpg"
+  },
+  {
+    "cateId":"002",
+    "name":"德利奥Delio 巧克力味威化饼干 320克",
+    "price":"38.9",
+    "img":"images/product1/174(9).jpg"
+  },
+  {
+    "cateId":"002",
+    "name":"德利奥Delio 巧克力味威化饼干 320克",
+    "price":"38.9",
+    "img":"images/product1/174(10).jpg"
+  }
+]

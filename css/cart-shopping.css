@@ -1,0 +1,62 @@
+.clear{clear:both;}
+.logo-wrap{height: 104px;padding: 0;}
+.logo-wrap .logo-wrap .logo{padding-top: 5px;}
+.right-logo{float: right;width: 650px;padding-top: 30px;}
+
+.cartMain{margin: 0 auto;}
+.cartMain .cartHead{padding-bottom: 10px;zoom: 1;overflow: hidden;}
+.cartMain .cartHead .cartMy{float: left;font-size: 20px;line-height: 26px;font-family: "microsoft yahei";}
+.cartMain .cartHead .areaShow{width: 670px;float: left;}
+.cartMain .cartHead .areaShow h2{font-size: 14px;float: left;height: 26px;line-height: 26px;margin: 0 5px 0 20px;}
+.cartMain .cartHead .areaShow .selector{float: left;height: 26px;margin-right: 6px;position: relative;z-index: 90;background: #fff;border: 1px solid #cecbce;padding: 0 20px 0 4px;font-size: 12px;line-height: 26px;}
+.cartMain .cartHead .areaShow .content{position: absolute;left:-45px;top:27px;background: #fff;border: 1px solid #cecbce;box-shadow: 0 0 5px #ddd;width: 390px;height: 100px;display: none;}
+.cartMain .cartHead .areaShow p{float: left;height: 26px;line-height: 26px;}
+.total{float: right;height: 26px;line-height: 26px;}
+.total span{color:#ea5404;font-weight: bold;}
+
+.cartThead{overflow: hidden;zoom: 1;}
+.tCheckbox{width: 70px;}
+.tCol{float: left;height: 34px;line-height: 34px;background-color: #81a84a;color: #fff;font-weight: bold;text-align: center;}
+.tGoods{width: 280px;}
+.tPrice,.tPromotion,.tWeight,.tSubtotal{width: 100px;}
+.tQuantity,.tOperator{width: 90px;}
+.tInventory{width: 70px;}
+
+.cartTbody .cartTitle{background-color: #f2f6ed;height: 25px;line-height: 25px;padding: 5px 10px;}
+.cartCheckbox{color: #565656;font-weight: bold;font-size: 12px;}
+.cartItem .cartPInfo{overflow: hidden;zoom: 1;padding: 20px 0;border-bottom: 1px solid #ebf7ef;}
+.pItem{float: left;color: #6b6b6b;text-align: center;line-height: 20px;}
+.pCheckbox{width: 70px;padding-top: 20px;}
+.pGoods{width: 280px;text-align: left;}
+.cartPImg{border: 1px solid #eee;float:left;height: 60px;margin-right: 10px;width: 60px;overflow: hidden;}
+.cartPImg img{width: 100%;height: 100%;}
+.cartName{height: 20px;}
+.pPrice{width: 100px;}
+.pPromotion{width: 100px;}
+.pQuantity{width: 90px;}
+.cartAmount{margin: 1px auto;width: 55px;height: 18px;zoom: 1;overflow: hidden;}
+.cartAmount a{background-color: #eee;color: #7d7d7d;cursor: pointer;display:block;height: 12px;width: 10px;line-height: 12px;float: left;text-align: center;margin-top: 2px;}
+.cartAmount .amount{float: left;font-size: 12px;width: 25px;height: 14px;line-height: 14px;text-align: center;vertical-align: middle;border: 1px solid #eee;margin: 0 3px;}
+.pWeight{width: 100px;}
+.pSubtotal{width: 100px;color: #ea5404;font-weight: bold;}
+.pInventory{width: 70px;}
+.pOperator{width: 90px;}
+
+.cartOrderCount{margin-top: 30px;border: 1px solid #dadada;overflow: hidden;zoom: 1;}
+.cartBtn{float: left;width: 300px;padding: 5px 0;}
+.cartBtn a{color: #6b6b6b;width: 110px;height: 18px;line-height: 18px;margin: 10px;overflow: hidden;padding-left: 15px;text-align: left;display: inline-block;background: url("../images/cartbg.gif") no-repeat 0 -105px;}
+
+.cartTotalItem{float: right;width: 500px;line-height: 38px;padding: 3px 10px 0 0 ;text-align: right;color: #6b6b6b;}
+.moneyAll{color: #ea5404;font-size: 22px;}
+
+.cartJsuan{text-align: right;padding: 10px;}
+.go-shopping{width: 73px;height: 28px;border: 1px solid #a5cf69;color: #666;margin-right: 10px;background: url("../images/header.png") no-repeat 0 -231px;padding: 4px 12px;}
+.calculate{width: 150px;height: 45px;color: #fff;background-color: #6e9b0c;text-align: center;font-size: 16px;font-weight: bold;display: inline-block;line-height: 45px;}
+
+
+.footer_wrap .footer2,.footer_wrap .footer3{width: 1000px;margin: 0 auto;}
+
+
+
+
+

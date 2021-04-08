@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/register.css" rel="stylesheet"/>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="###">
+            <img src="images/logo.png"/>
+            <span>欢迎注册</span>
+        </a>
+    </div>
+    <div class="reg-title">
+        <ul class="tabUser">
+            <li>个人用户</li>
+            <li>企业用户</li>
+            <li class="last">已有账号，立即<a href="login.html">登录</a></li>
+        </ul>
+    </div>
+    <div class="reg-main">
+        <ul class="userInfo">
+            <li class="infoItem username">
+                <h2 class="title">
+                    <span>*</span>
+                    账户名:
+                </h2>
+                <div class="cont">
+                    <input type="text"/>
+                    <em></em>
+                </div>
+                <p class="prompt">&nbsp;</p>
+            </li>
+            <li class="infoItem password">
+                <h2 class="title">
+                    <span>*</span>
+                    登录密码:
+                </h2>
+                <div class="cont">
+                    <input type="password"/>
+                    <em></em>
+                </div>
+                <p class="prompt">&nbsp;</p>
+            </li>
+            <li class="infoItem safe">
+                <div class="safety">安全强度:</div>
+                <ul class="safe_list">
+                    <li class="weak">弱</li>
+                    <li class="middle">中</li>
+                    <li class="powerful">强</li>
+                </ul>
+
+            </li>
+            <li class="infoItem password-sure">
+                <h2 class="title">
+                    <span>*</span>
+                    确认密码:
+                </h2>
+                <div class="cont">
+                    <input type="password"/>
+                    <em></em>
+                </div>
+                <p class="prompt">&nbsp;</p>
+            </li>
+            <li class="infoItem ver-code">
+                <h2 class="title">
+                    <span>*</span>
+                    验证码:
+                </h2>
+                <div class="cont">
+                    <input type="text"/>
+                    <em></em>
+                </div>
+                <div class="code-random" title="看不清？换一换">&nbsp;</div>
+                <span class="code-title">看不清？<a>换一换</a></span>
+                <p class="prompt">&nbsp;</p>
+            </li>
+            <li class="infoItem phone-code" style="display: none">
+                <h2 class="title">
+                    <span>*</span>
+                    短信验证码:
+                </h2>
+                <div class="cont">
+                    <input type="text"/>
+                </div>
+                <button>获取短信验证码</button>
+                <p class="prompt">&nbsp;</p>
+            </li>
+            <li class="infoItem agree">
+                <input type="checkbox" checked/>
+                我已阅读并同意
+                <a href="https://passport.sfbest.com/xy.html">《顺丰优选客户注册协议》</a>
+            </li>
+            <li class="infoItem reg-btn">
+                <a href="login.html">立即注册</a>
+            </li>
+        </ul>
+    </div>
+<script>
+    $(".userInfo input").blur(function(){
+        if($("em:hidden").length==0){
+        $(".phone-code").show();
+    }
+    })
+
+</script>
+
+
+
+</body>
+</html>
